@@ -11,9 +11,6 @@ import java.util.List;
 
 @SpringBootApplication
 public class RestWithHibernateApplication {
-	@Autowired
-	private CustomerRepository customerRepository;
-
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestWithHibernateApplication.class, args);
